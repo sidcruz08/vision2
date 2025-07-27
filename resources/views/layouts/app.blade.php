@@ -16,14 +16,23 @@
             <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="/patients">Patients</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="/visits">Visits</a>
                 </li>
                 <li class="nav-item">
+                <a class="nav-link" href="/diagnoses">Diagnoses</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="/treatments">Treatments</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="/claim-items">Claim-items</a>
+                </li>
+                <!-- <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
-                </li>
+                </li> -->
             </ul>
             </div>
         </div>

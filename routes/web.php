@@ -9,6 +9,7 @@ use Illuminate\Http\Request;  // Correct import
 // use App\Http\Controllers\TreatmentController;
 use App\Http\Controllers\{PatientController, VisitController, DiagnosisController, TreatmentController, ClaimController, ClaimItemController, ClaimDocumentController};
 use App\Http\Controllers\DocumentController;
+use App\Http\Controllers\WordExportController;
 
 /*
 |--------------------------------------------------------------------------
@@ -47,3 +48,6 @@ Route::get('/analyze-stored-image', [ImageController::class, 'validateDocument']
 
 Route::get('/analyze-stored', [ImageController::class, 'processImage']); // GET (For testing stored image)
 
+
+
+Route::get('/generate-word', [WordExportController::class, 'generate']);
